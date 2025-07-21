@@ -28,7 +28,7 @@ class Univers:
             - 'draw_text', 'draw_controls', 'draw_info' : écris le text sur la fenètre Pygame
             - 'jointSpaceControl' : controler les paramètres articulaires
             - 'cartesianControl': controler l'effecteur
-            - 'simulation': coeur du programme pour lancer la simulation
+            - 'run': coeur du programme pour lancer la simulation
 
     """ 
     def __init__(self,robot,connected=False,portName=None):

@@ -7,8 +7,8 @@ def main():
     l_i=[0.06]*3
     # Création robot:
     robot3R= Robot(q_i,l_i)
-    portName='/dev/tty.usbserial-FT6S4F81'
-    connected=True
+    portName='/dev/tty.usbserial-FT6S4E5D'
+    connected=False
     univers = Univers(robot=robot3R,connected=connected,portName=portName) # création d'un univers (instance de Univers)
     
     # Test des target pour MGD MGI
@@ -17,6 +17,7 @@ def main():
     
     # Run simulation, mode = qTarget, posTarget, jointControl, cartesianControl, manipulate (real robot)
     univers.run(mode="cartesianControl",q_target=q_target,pos_target=pos_target)
-    
+
 if __name__ == "__main__":
     main()
+
