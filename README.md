@@ -1,4 +1,4 @@
-# # Simulation d'un robot nR plan 
+# Simulation d'un robot nR plan 
 
 Ce code utilise la programmation orientée objet en Python. Pour faire simple, La POO (programmation orientée objet) en Python permet de structurer le code autour d’objets créés à partir de classes, qui regroupent données (attributs) et comportements (méthodes/fonctions). Une classe se construit avec le mot-clé class, puis on crée des objets (instances) en l’appelant comme une fonction, ce qui rend le code plus organisé, réutilisable et modulable. Le \__init__ est une méthode spéciale appelée automatiquement quand on crée une nouvelle instance d’une classe ; elle sert à initialiser les attributs de l’objet avec les valeurs que tu lui donnes.
 
